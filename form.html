@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>form</title>
+  <style>
+    form{
+      border: 2px solid black;
+      padding: 3px;
+      background-color: aqua;
+      width: 70%;
+      
+    }
+    fieldset{
+      width: 20%;
+    }
+    h1{
+        font-family: italic;    
+    }
+    hr{
+        border: 2px black solid;
+    }
+  </style>
+</head>
+<body>
+      <form>
+        <h1 align="center" >registration</h1>
+        <hr>
+        <br>
+        <label for="name">enter name:</label>
+        <input type="text" id="name">
+        <br/>
+        <br/>
+        <label for="dateofbirth">enter date of birth:</label>
+        <input type="date" id="dateofbirth">
+        <br/>
+        <br/>
+        <label for="email">enter email id:</label>
+        <input type="email" id="email" placeholder="email">
+        <br/>
+        <br/>
+        <label for="password">enter password:</label>
+        <input type="password" id="password">
+        <br/>
+        <br/>
+        <label for="tel">enter phone numbar:</label>
+        <input type="tel" id="tel">
+        <br/>
+        <br/>
+        <label for="fileuplode">resume</label>
+        <input type="file" id="fileuplode">
+        <br>
+        <br>
+        <label for="counter">experience (in year)</label>
+        <input type="number" name="counter" id="counter" min="0" max="5">
+        <br/>
+        <br/>
+        <!-- <p>gender</p> --> <span>gender</span>
+        <label>
+        <input type="radio" name="name" id="name1">male
+        </label>
+        <label>
+        <input type="radio" name="name" id="name2">female
+        </label>
+        <label>
+        <input type="radio" name="name" id="name3">other
+        </label>
+        <br/>
+        <br/>
+      <label for="type">profesion:</label>   
+      <select name="type" id="type">
+           <option value="student">student</option>
+           <option value="profecer">profecer</option>
+           <option value="other">other</option>
+      </select>
+      <br/>
+      <br>
+      <label for="edutype">education</label>
+      <select name="edutype" id="edutype">
+        <option value="a">engineering</option>
+        <option value="b">medical</option>
+      </select>
+       <br/>
+       <br/>
+      <fieldset>
+        <legend>topics</legend>
+        
+        <input type="checkbox" name="checkbox" id="checkbox1">
+        <label for="checkbox">html</label>
+       <br/>
+        <input type="checkbox" name="checkbox" id="checkbox2">
+        <label for="checkbox">java</label>
+        <br/>
+
+        <input type="checkbox" name="checkbox" id="checkbox3">
+        <label for="checkbox">python</label>
+      </fieldset>
+      <br/>
+      <br/>
+     
+
+      <label for="textarea1">comments</label>
+      <br/>
+      <textarea name="textarea" id="textarea1" cols="20" rows="10"></textarea>
+
+       <br>
+        <input type="submit" value="register">
+    
+    </form>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+</head>
+<body style="border: 3px solid black; width: 500px;"  > 
+    <form style="padding: 5px; background-color: aqua;" align="center">
+        <h1 style="color: red;" align="center">Registration Form</h1>
+        <hr>
+        <label for="username">Enter your name:</label>
+        <input type="text" id="username" placeholder="enter name">
+        <br>
+        <br>
+        <label for="email">enter email id:</label>
+        <input type="email" id="email" placeholder="enter email">
+        <br>
+        <br>
+        <label for="password">enter password:</label>
+        <input type="password" id="password" placeholder="password">
+        <br>
+        <br>
+        <label for="number">enter phone numbar:</label>
+        <input type="number" id="number" placeholder="+91">
+        <br>
+        <hr>
+        <h4>Gender</h4>
+        <label>
+            <input type="radio" name="name" id="name1">male
+            </label>
+            <label>
+            <input type="radio" name="name" id="name2">female
+            </label>
+            <label>
+            <input type="radio" name="name" id="name3">other
+        </label>
+        <br>
+        <br>
+        <h4>College Name:</h4>
+        
+        <select name="type" id="type">
+             <option value="DYPatil">DYPatil</option>
+             <option value="KIT">KIT</option>
+             <option value="VCK">VCK</option>
+             <option value="IIT">IIT</option>
+             <option value="NIT">NIT</option>
+        </select>
+        <br>
+        <h4>course:</h4>
+        <input type="checkbox" name="checkbox" id="checkbox1">
+        <label for="checkbox">html</label>
+        <br/>
+        <input type="checkbox" name="checkbox" id="checkbox2">
+        <label for="checkbox">java</label>
+        <br/>
+        <input type="checkbox" name="checkbox" id="checkbox3">
+        <label for="checkbox">python</label>
+        <br>
+        <hr>
+        <label for="textarea1">Comment</label>
+        <br>
+        <textarea name="textarea" id="textarea1"></textarea>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html> -->
